@@ -40,5 +40,5 @@ jobs:
           file: src/Dockerfile
           push: true
           tags: |
-            andrecoelhojr/aula-conversao-temperatura:v1
+            andrecoelhojr/aula-conversao-temperatura:${{github.run_number}}
             andrecoelhojr/aula-conversao-temperatura:latest
